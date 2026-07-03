@@ -1,10 +1,8 @@
 ---
 layout: single
-title: "Home"
+title: "About me"
 author_profile: true
 ---
-
-## About
 
 Evolutionary researcher mixing experimental ecology with chemical, genetic and epigenetic profiling. 
 Focussed on characterizing the paths and mechanisms in which stress-induced non-genetic changes alter
