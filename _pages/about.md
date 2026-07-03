@@ -1,13 +1,5 @@
 ---
-permalink: /
-title: "Home"
+permalink: /about/
+title: "About"
 author_profile: true
 ---
-
-## About
-
-Escribe aquí tu texto de presentación.
-
-## Latest News
-
-Coming soon...
