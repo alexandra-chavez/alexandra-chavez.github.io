@@ -96,7 +96,7 @@ footer:
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Alexandra-Chavez-20"
       rel: "external"
-
+      
 defaults:
   # _posts
   - scope:
