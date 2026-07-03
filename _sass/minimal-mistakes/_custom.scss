@@ -1,27 +1,65 @@
+/* Research page grid */
+
 .research-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
+  gap: 2rem;
   margin-top: 2rem;
 }
 
 .research-card {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
   border-radius: 1.25rem;
-  padding: 1.25rem;
-  background: #f7f7f7;
+  padding: 1.5rem;
   text-align: center;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.research-card summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.research-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.research-card h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
 }
 
 .research-card img {
   width: 220px;
   height: 220px;
-  border-radius: 50%;
+  max-width: 100%;
   object-fit: cover;
-  margin-bottom: 1rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
-.research-card h2 {
-  margin-top: 0.5rem;
-  font-size: 1.25rem;
+.research-card-text {
+  margin-top: 1.25rem;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.research-card[open] {
+  border-color: #bfbfbf;
+}
+
+/* Mobile: one card per row */
+
+@media (max-width: 700px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-card img {
+    width: 190px;
+    height: 190px;
+  }
 }
