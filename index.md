@@ -8,6 +8,14 @@ author_profile: true
 
 Write your short professional introduction here.
 
-## Latest News
+## Latest Updates
 
-Coming soon.
+{% for post in site.posts limit:3 %}
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+{{ post.excerpt }}
+
+*{{ post.date | date: "%B %d, %Y" }}*
+
+---
+{% endfor %}
