@@ -41,7 +41,7 @@ Society for Molecular Biology and Evolution (SMBE) conference, Copenhagen, Denma
 </p>
 
 <p>
-<strong>Outstanding doctoral project 2020</strong><br>
+<strong>Outstanding Doctoral Project 2020</strong><br>
 Research: “Non-genetic inheritance alters stress resistance across generations in the Giant duckweed”<br>
 <em>International Conference on Duckweed Research and Applications (ICDRA)</em>, Germany
 </p>
