@@ -16,10 +16,11 @@ author_profile: true
 .research-card {
   border: 1px solid #e5e5e5 !important;
   border-radius: 18px !important;
-  padding: 1.5rem !important;
+  padding: 1.2rem 1.2rem 1.5rem 1.2rem !important;
   text-align: center !important;
   background: #fff !important;
   box-shadow: 0 4px 14px rgba(0,0,0,0.06) !important;
+  overflow: hidden !important;
 }
 
 .research-card summary {
@@ -33,17 +34,18 @@ author_profile: true
 
 .research-card h2 {
   font-size: 1.25rem !important;
-  margin: 0 0 1rem 0 !important;
+  margin: 0 0 0.4rem 0 !important;
   text-align: center !important;
+  line-height: 1.15 !important;
 }
 
 .research-card img {
-  width: 180px !important;
-  height: 180px !important;
+  width: 260px !important;
+  height: 260px !important;
   object-fit: cover !important;
   border-radius: 50% !important;
   display: block !important;
-  margin: 0 auto !important;
+  margin: 0.2rem auto 0 auto !important;
 }
 
 .research-card-text {
@@ -55,6 +57,11 @@ author_profile: true
 @media (max-width: 700px) {
   .research-grid {
     grid-template-columns: 1fr !important;
+  }
+
+  .research-card img {
+    width: 230px !important;
+    height: 230px !important;
   }
 }
 </style>
