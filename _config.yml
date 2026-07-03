@@ -17,7 +17,7 @@
 title: Alexandra Chávez
 email: alexandra.chavez@
 description: >-
-  Evolutionary biology, experimental ecology, chemical echology, epigenetics and population genetics.
+  Evolutionary biology, experimental ecology, chemical ecology, epigenetics and population genetics.
 
 github_username: alexandra-chavez
 minimal_mistakes_skin: default
@@ -64,7 +64,7 @@ plugins:
 author:
   name: "Alexandra Chávez"
   avatar: "/assets/images/profile.jpg"
-  bio: "Evolutionary biology • experimental ecology • chemical echology • epigenetics • population genetics"
+  bio: "Evolutionary biology • experimental ecology • chemical ecology • epigenetics • population genetics"
 
   links:
     - label: "ORCID"
