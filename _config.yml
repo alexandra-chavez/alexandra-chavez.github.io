@@ -75,22 +75,27 @@ footer:
     - label: "ORCID"
       icon: "ai ai-orcid"
       url: "https://orcid.org/0000-0003-1895-8172"
+      rel: "external"
 
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/alemireya"
+      rel: "external"
       
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/citations?user=ol5FBssAAAAJ&hl=es&oi=ao"
+      rel: "external"
 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alexandra-chavez"
+      rel: "external"
       
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Alexandra-Chavez-20"
+      rel: "external"
 
 defaults:
   # _posts
