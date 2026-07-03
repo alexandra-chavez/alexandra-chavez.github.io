@@ -43,14 +43,16 @@ author_profile: true
     </div>
   </details>
 
-  <div class="research-card research-card-placeholder">
-    <h2>More coming soon</h2>
-    <div class="research-placeholder-circle">
-      +
+  <details class="research-card">
+    <summary>
+      <h2>Population Genetics</h2>
+      <img src="/assets/images/population-genetics.jpg" alt="Population genetics">
+    </summary>
+    <div class="research-card-text">
+      <p>
+        Text coming soon.
+      </p>
     </div>
-    <p>
-      Future research line.
-    </p>
-  </div>
+  </details>
 
 </div>
