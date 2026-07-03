@@ -4,8 +4,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Publications
-
 A complete and up-to-date list is available on <a href="https://orcid.org/0000-0003-1895-8172" target="_blank">ORCID</a>.
 
 <details open>
