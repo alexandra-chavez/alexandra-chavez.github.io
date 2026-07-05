@@ -8,90 +8,117 @@ author_profile: true
 <style>
 .research-grid {
   display: grid !important;
-  grid-template-columns: repeat(2, minmax(360px, 1fr)) !important;
+  grid-template-columns: repeat(2, minmax(420px, 1fr)) !important;
   gap: 2.5rem !important;
   margin-top: 2rem !important;
 }
 
-.research-card {
-  perspective: 1000px !important;
+.research-flip-card {
+  background: transparent !important;
+  width: 100% !important;
+  min-height: 560px !important;
+  perspective: 1200px !important;
 }
 
-.research-card details {
+.research-flip-card input {
+  display: none !important;
+}
+
+.research-flip-inner {
+  position: relative !important;
+  width: 100% !important;
+  min-height: 560px !important;
+  transition: transform 0.7s !important;
+  transform-style: preserve-3d !important;
+}
+
+.research-flip-card input:checked + .research-flip-inner {
+  transform: rotateY(180deg) !important;
+}
+
+.research-flip-front,
+.research-flip-back {
+  position: absolute !important;
+  width: 100% !important;
+  min-height: 560px !important;
+  backface-visibility: hidden !important;
   border: 1px solid #e5e5e5 !important;
   border-radius: 18px !important;
   background: #fff !important;
   box-shadow: 0 4px 14px rgba(0,0,0,0.06) !important;
-  min-height: 520px !important;
-  overflow: hidden !important;
-}
-
-.research-card summary {
-  list-style: none !important;
+  padding: 1.4rem !important;
   cursor: pointer !important;
+}
+
+.research-flip-front {
   text-align: center !important;
-  padding: 1.5rem !important;
 }
 
-.research-card summary::-webkit-details-marker {
-  display: none !important;
+.research-flip-back {
+  transform: rotateY(180deg) !important;
+  overflow-y: auto !important;
+  text-align: left !important;
+  font-size: 0.88rem !important;
+  line-height: 1.5 !important;
+  padding: 1.8rem 2rem !important;
 }
 
-.research-card h2 {
+.research-flip-front h2,
+.research-flip-back h2 {
   font-size: 1.45rem !important;
   margin: 0 0 0.7rem 0 !important;
   text-align: center !important;
   line-height: 1.15 !important;
 }
 
-.research-card img {
-  width: 310px !important;
-  height: 310px !important;
+.research-flip-front img {
+  width: 300px !important;
+  height: 300px !important;
   object-fit: cover !important;
   border-radius: 50% !important;
   display: block !important;
-  margin: 0.3rem auto 0 auto !important;
+  margin: 0.5rem auto 0 auto !important;
 }
 
-.research-card-text {
-  padding: 1.5rem 2rem 2rem 2rem !important;
-  text-align: left !important;
-  font-size: 0.92rem !important;
-  line-height: 1.55 !important;
-}
-
-.research-card-text p {
+.research-flip-back p {
   margin-bottom: 1rem !important;
 }
 
-.research-card details[open] summary {
-  border-bottom: 1px solid #eeeeee !important;
+.flip-hint {
+  margin-top: 1rem !important;
+  font-size: 0.8rem !important;
+  color: #777 !important;
+  text-align: center !important;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .research-grid {
     grid-template-columns: 1fr !important;
   }
+}
 
-  .research-card img {
-    width: 260px !important;
-    height: 260px !important;
+@media (max-width: 700px) {
+  .research-flip-front img {
+    width: 240px !important;
+    height: 240px !important;
   }
 }
 </style>
-
 My research explores how organisms respond to environmental variation across generations, with emphasis on plasticity, epigenetic mechanisms, chemical ecology, and population genetics.
 
-<div class="research-grid">
+<label class="research-flip-card">
+  <input type="checkbox">
 
-  <div class="research-card">
-    <details>
-      <summary>
-        <h2>Transgenerational Plasticity</h2>
-        <img src="/assets/images/transgenerational-plasticity.jpg" alt="Transgenerational plasticity">
-      </summary>
+  <div class="research-flip-inner">
 
-  <div class="research-card-text">
+  <div class="research-flip-front">
+      <h2>Transgenerational Plasticity</h2>
+      <img src="/assets/images/transgenerational-plasticity.jpg" alt="Transgenerational plasticity">
+      <div class="flip-hint">Click to read more</div>
+    </div>
+
+  <div class="research-flip-back">
+      <h2>Transgenerational Plasticity</h2>
     
 <p>
 To adapt to changing environments, organisms must cope with stress not only within their own lifetime, but also across generations. The conditions experienced by parents or ancestors may influence how descendants grow, survive, and respond to similar stress later in life, even in the absence of genetic change. This controversial process is known as transgenerational plasticity.
@@ -109,10 +136,11 @@ I study these questions by following single descendant lines across multiple gen
 This experimental design has shown that transgenerational plasticity is relevant for clonal organisms. It can modify fitness, such as reproduction rates, morphology, and organismal physiology, likely through inherited non-genetic marks.
 </p>
 
+  <div class="flip-hint">Click to return</div>
+    </div>
+
   </div>
-  </details>
-  
-  </div>
+</label>
 
   <div class="research-card">
     <details>
