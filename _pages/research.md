@@ -150,22 +150,22 @@ My research explores how organisms respond to environmental variation across gen
 
   <div class="research-tabs">
 
-    <label for="research-transgen" class="research-tab tab-transgen">
+  <label for="research-transgen" class="research-tab tab-transgen">
       <h2>Transgenerational Plasticity</h2>
       <img src="/assets/images/transgenerational-plasticity.jpg" alt="Transgenerational plasticity">
     </label>
 
-    <label for="research-epigenetics" class="research-tab tab-epigenetics">
+  <label for="research-epigenetics" class="research-tab tab-epigenetics">
       <h2>Epigenetics</h2>
       <img src="/assets/images/epigenetics.jpg" alt="Epigenetics">
     </label>
 
-    <label for="research-chemical" class="research-tab tab-chemical">
+  <label for="research-chemical" class="research-tab tab-chemical">
       <h2>Chemical Ecology</h2>
       <img src="/assets/images/chemical-ecology.jpg" alt="Chemical ecology">
     </label>
 
-    <label for="research-popgen" class="research-tab tab-popgen">
+   <label for="research-popgen" class="research-tab tab-popgen">
       <h2>Population Genetics</h2>
       <img src="/assets/images/population-genetics.jpg" alt="Population genetics">
     </label>
@@ -174,40 +174,40 @@ My research explores how organisms respond to environmental variation across gen
 
   <div class="research-panel">
 
-    <div class="research-content content-transgen">
+  <div class="research-content content-transgen">
       <h2>Transgenerational Plasticity</h2>
       <img src="/assets/images/transgenerational-plasticity.jpg" alt="Transgenerational plasticity">
 
-      <p>
+  <p>
         To adapt to changing environments, organisms must cope with stress not only within their own lifetime, but also across generations. The conditions experienced by parents or ancestors may influence how descendants grow, survive, and respond to similar stress later in life, even in the absence of genetic change. This controversial process is known as transgenerational plasticity.
       </p>
 
-      <p>
+  <p>
         Transgenerational plasticity may be especially important in clonal organisms, where adaptation through genetic recombination is limited. Yet we still know little about whether transgenerational plasticity can help descendants when stress returns, how long these effects last, and whether some lineages are more likely than others to show these responses.
       </p>
 
-      <p>
+  <p>
         I study these questions by following single descendant lines across multiple generations. First, I expose individuals to stress for five generations. This pre-treatment phase allows stress-related changes to arise. Then, I grow the next five generations without stress to erase all directly induced changes. Finally, I expose the eleventh generation to either control conditions or recurrent stress for three to five generations. This final treatment phase shows whether ancestral stress changes offspring fitness and phenotype. Ancestral stress may have no detectable effects. It may lead to the transgenerational retention of stress-related traits across generations, or it may transgenerationally prime descendants, making them better or worse prepared for recurrent stress.
       </p>
 
-      <p>
+  <p>
         This experimental design has shown that transgenerational plasticity is relevant for clonal organisms. It can modify fitness, such as reproduction rates, morphology, and organismal physiology, likely through inherited non-genetic marks.
       </p>
     </div>
 
-    <div class="research-content content-epigenetics">
+  <div class="research-content content-epigenetics">
       <h2>Epigenetics</h2>
       <img src="/assets/images/epigenetics.jpg" alt="Epigenetics">
       <p>Text coming soon.</p>
     </div>
 
-    <div class="research-content content-chemical">
+  <div class="research-content content-chemical">
       <h2>Chemical Ecology</h2>
       <img src="/assets/images/chemical-ecology.jpg" alt="Chemical ecology">
       <p>Text coming soon.</p>
     </div>
 
-    <div class="research-content content-popgen">
+  <div class="research-content content-popgen">
       <h2>Population Genetics</h2>
       <img src="/assets/images/population-genetics.jpg" alt="Population genetics">
       <p>Text coming soon.</p>
