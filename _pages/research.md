@@ -6,130 +6,183 @@ author_profile: true
 ---
 
 <style>
-.research-grid {
+.research-layout {
   display: grid !important;
-  grid-template-columns: repeat(2, minmax(450px, 1fr)) !important;
-  gap: 2.5rem !important;
+  grid-template-columns: minmax(260px, 0.9fr) minmax(520px, 1.6fr) !important;
+  gap: 2rem !important;
   margin-top: 2rem !important;
+  align-items: start !important;
 }
 
-.research-toggle {
+.research-tabs {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 1rem !important;
+}
+
+.research-tabs input {
   display: none !important;
 }
 
-.research-flip-card {
-  display: block !important;
-  width: 100% !important;
-  min-height: 560px !important;
-  perspective: 1200px !important;
+.research-tab {
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 18px !important;
+  background: #fff !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05) !important;
+  padding: 1rem !important;
+  text-align: center !important;
   cursor: pointer !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease !important;
 }
 
-.research-flip-inner {
-  position: relative !important;
-  width: 100% !important;
-  min-height: 560px !important;
-  transition: transform 0.7s !important;
-  transform-style: preserve-3d !important;
+.research-tab:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08) !important;
 }
 
-.research-toggle:checked + .research-flip-card .research-flip-inner {
-  transform: rotateY(180deg) !important;
+.research-tab h2 {
+  font-size: 1.05rem !important;
+  line-height: 1.15 !important;
+  margin: 0 0 0.6rem 0 !important;
+  text-align: center !important;
 }
 
-.research-flip-front,
-.research-flip-back {
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  min-height: 560px !important;
-  backface-visibility: hidden !important;
+.research-tab img {
+  width: 145px !important;
+  height: 145px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.research-panel {
   border: 1px solid #e5e5e5 !important;
   border-radius: 18px !important;
   background: #fff !important;
   box-shadow: 0 4px 14px rgba(0,0,0,0.06) !important;
-  padding: 1.5rem !important;
-  box-sizing: border-box !important;
+  padding: 2rem 2.4rem !important;
+  min-height: 720px !important;
 }
 
-.research-flip-front {
-  text-align: center !important;
+.research-content {
+  display: none !important;
 }
 
-.research-flip-back {
-  transform: rotateY(180deg) !important;
-  overflow-y: auto !important;
-  text-align: left !important;
-  font-size: 0.88rem !important;
-  line-height: 1.5 !important;
-  padding: 1.8rem 2rem !important;
-}
-
-.research-flip-front h2,
-.research-flip-back h2 {
-  font-size: 1.45rem !important;
-  margin: 0 0 0.7rem 0 !important;
-  text-align: center !important;
+.research-content h2 {
+  font-size: 1.65rem !important;
   line-height: 1.15 !important;
-}
-
-.research-flip-front img {
-  width: 300px !important;
-  height: 300px !important;
-  object-fit: cover !important;
-  border-radius: 50% !important;
-  display: block !important;
-  margin: 0.5rem auto 0 auto !important;
-}
-
-.research-flip-back p {
-  margin-bottom: 1rem !important;
-}
-
-.flip-hint {
-  margin-top: 1rem !important;
-  font-size: 0.8rem !important;
-  color: #777 !important;
+  margin: 0 0 1rem 0 !important;
   text-align: center !important;
+}
+
+.research-content img {
+  width: 260px !important;
+  height: 260px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block !important;
+  margin: 0 auto 1.5rem auto !important;
+}
+
+.research-content p {
+  font-size: 0.98rem !important;
+  line-height: 1.6 !important;
+  margin-bottom: 1rem !important;
+  text-align: left !important;
+}
+
+#research-transgen:checked ~ .research-layout .tab-transgen,
+#research-epigenetics:checked ~ .research-layout .tab-epigenetics,
+#research-chemical:checked ~ .research-layout .tab-chemical,
+#research-popgen:checked ~ .research-layout .tab-popgen {
+  border-color: #bfbfbf !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.10) !important;
+  transform: translateY(-2px) !important;
+}
+
+#research-transgen:checked ~ .research-layout .content-transgen,
+#research-epigenetics:checked ~ .research-layout .content-epigenetics,
+#research-chemical:checked ~ .research-layout .content-chemical,
+#research-popgen:checked ~ .research-layout .content-popgen {
+  display: block !important;
 }
 
 @media (max-width: 1000px) {
-  .research-grid {
+  .research-layout {
     grid-template-columns: 1fr !important;
+  }
+
+  .research-tabs {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .research-panel {
+    min-height: auto !important;
   }
 }
 
 @media (max-width: 700px) {
-  .research-flip-front img {
-    width: 240px !important;
-    height: 240px !important;
+  .research-tabs {
+    grid-template-columns: 1fr !important;
+  }
+
+  .research-tab img {
+    width: 130px !important;
+    height: 130px !important;
+  }
+
+  .research-content img {
+    width: 220px !important;
+    height: 220px !important;
   }
 }
 </style>
 
 My research explores how organisms respond to environmental variation across generations, with emphasis on plasticity, epigenetic mechanisms, chemical ecology, and population genetics.
 
-<div class="research-grid">
+<input type="radio" name="research-topic" id="research-transgen" checked>
+<input type="radio" name="research-topic" id="research-epigenetics">
+<input type="radio" name="research-topic" id="research-chemical">
+<input type="radio" name="research-topic" id="research-popgen">
 
-<input type="checkbox" id="card-transgen" class="research-toggle">
-<label for="card-transgen" class="research-flip-card">
-  <div class="research-flip-inner">
+<div class="research-layout">
 
-  <div class="research-flip-front">
+  <div class="research-tabs">
+
+  <label for="research-transgen" class="research-tab tab-transgen">
       <h2>Transgenerational Plasticity</h2>
       <img src="/assets/images/transgenerational-plasticity.jpg" alt="Transgenerational plasticity">
-      <div class="flip-hint">Click to read more</div>
-    </div>
+    </label>
 
-  <div class="research-flip-back">
+  <label for="research-epigenetics" class="research-tab tab-epigenetics">
+      <h2>Epigenetics</h2>
+      <img src="/assets/images/epigenetics.jpg" alt="Epigenetics">
+    </label>
+
+  <label for="research-chemical" class="research-tab tab-chemical">
+      <h2>Chemical Ecology</h2>
+      <img src="/assets/images/chemical-ecology.jpg" alt="Chemical ecology">
+    </label>
+
+  <label for="research-popgen" class="research-tab tab-popgen">
+      <h2>Population Genetics</h2>
+      <img src="/assets/images/population-genetics.jpg" alt="Population genetics">
+    </label>
+
+  </div>
+
+  <div class="research-panel">
+
+  <div class="research-content content-transgen">
       <h2>Transgenerational Plasticity</h2>
+      <img src="/assets/images/transgenerational-plasticity.jpg" alt="Transgenerational plasticity">
 
   <p>
         To adapt to changing environments, organisms must cope with stress not only within their own lifetime, but also across generations. The conditions experienced by parents or ancestors may influence how descendants grow, survive, and respond to similar stress later in life, even in the absence of genetic change. This controversial process is known as transgenerational plasticity.
       </p>
 
-   <p>
+  <p>
         Transgenerational plasticity may be especially important in clonal organisms, where adaptation through genetic recombination is limited. Yet we still know little about whether transgenerational plasticity can help descendants when stress returns, how long these effects last, and whether some lineages are more likely than others to show these responses.
       </p>
 
@@ -140,68 +193,35 @@ My research explores how organisms respond to environmental variation across gen
   <p>
         This experimental design has shown that transgenerational plasticity is relevant for clonal organisms. It can modify fitness, such as reproduction rates, morphology, and organismal physiology, likely through inherited non-genetic marks.
       </p>
+    </div>
 
-  <div class="flip-hint">Click to return</div>
-  </div>
-
-  </div>
-</label>
-
-<input type="checkbox" id="card-epigenetics" class="research-toggle">
-<label for="card-epigenetics" class="research-flip-card">
-  <div class="research-flip-inner">
-
-  <div class="research-flip-front">
+  <div class="research-content content-epigenetics">
       <h2>Epigenetics</h2>
       <img src="/assets/images/epigenetics.jpg" alt="Epigenetics">
-      <div class="flip-hint">Click to read more</div>
+
+  <p>
+        Text coming soon.
+      </p>
     </div>
 
-  <div class="research-flip-back">
-      <h2>Epigenetics</h2>
-      <p>Text coming soon.</p>
-      <div class="flip-hint">Click to return</div>
-    </div>
-
-  </div>
-</label>
-
-<input type="checkbox" id="card-chemical" class="research-toggle">
-<label for="card-chemical" class="research-flip-card">
-  <div class="research-flip-inner">
-
-  <div class="research-flip-front">
+  <div class="research-content content-chemical">
       <h2>Chemical Ecology</h2>
       <img src="/assets/images/chemical-ecology.jpg" alt="Chemical ecology">
-      <div class="flip-hint">Click to read more</div>
+
+  <p>
+        Text coming soon.
+      </p>
     </div>
 
-  <div class="research-flip-back">
-      <h2>Chemical Ecology</h2>
-      <p>Text coming soon.</p>
-      <div class="flip-hint">Click to return</div>
-    </div>
-
-  </div>
-</label>
-
-<input type="checkbox" id="card-popgen" class="research-toggle">
-<label for="card-popgen" class="research-flip-card">
-  <div class="research-flip-inner">
-
-  <div class="research-flip-front">
+  <div class="research-content content-popgen">
       <h2>Population Genetics</h2>
       <img src="/assets/images/population-genetics.jpg" alt="Population genetics">
-      <div class="flip-hint">Click to read more</div>
-    </div>
 
-  <div class="research-flip-back">
-      <h2>Population Genetics</h2>
-      <p>Text coming soon.</p>
-      <div class="flip-hint">Click to return</div>
+  <p>
+        Text coming soon.
+      </p>
     </div>
 
   </div>
-</label>
 
 </div>
