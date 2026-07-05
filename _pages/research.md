@@ -180,10 +180,6 @@ My research explores how organisms respond to environmental variation across gen
         I study these questions by following single descendant lines across multiple generations. First, I expose individuals to stress for five generations. This pre-treatment phase allows stress-related changes to arise. Then, I grow the next five generations without stress to erase all directly induced changes. Finally, I expose the eleventh generation to either control conditions or recurrent stress for three to five generations. This final treatment phase shows whether ancestral stress changes offspring fitness and phenotype. Ancestral stress may have no detectable effects. It may lead to the transgenerational retention of stress-related traits across generations, or it may transgenerationally prime descendants, making them better or worse prepared for recurrent stress.
       </p>
 
-   <p>
-        This experimental design has shown that transgenerational plasticity is relevant for clonal organisms. It can modify fitness, such as reproduction rates, morphology, and organismal physiology, likely through inherited non-genetic marks.
-      </p>
-
    <div class="research-back-hint">Click another topic to change the panel.</div>
    </div>
 
@@ -192,7 +188,10 @@ My research explores how organisms respond to environmental variation across gen
       <img src="/assets/images/epigenetics.jpg" alt="Epigenetics">
 
    <p>
-        Text coming soon.
+Genetic diversity allows organisms to adapt in changing environments, but it may not be the only mechanism that shapes adaptation. Epigenetic marks, such as DNA methylation, small RNAs, and histone modifications, regulate how genes are expressed without changing the DNA sequence itself. Yet we still know little about whether these marks can influence adaptation in the absence of genetic change, how quickly they change across generations, and whether they can contribute to transgenerational plasticity.
+      </p>
+    <p>
+To study these questions, I use clonally reproducing organisms to assses DNA methylation and its correlation with gene expression. I currently work with *Spirodela polyrhiza*, *Rhopalosiphum nymphaeae*, *Daphnia magna*, and *Marchantia polymorpha*.
       </p>
 
    <div class="research-back-hint">Click another topic to change the panel.</div>
