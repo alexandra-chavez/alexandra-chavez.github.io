@@ -77,7 +77,19 @@ My research explores how organisms respond to environmental variation across gen
 </summary>
 <div class="research-card-text">
 <p>
-Text coming soon.
+To adapt to changing environments, organisms must cope with stress not only within their own lifetime, but also across generations. The conditions experienced by parents or ancestors may influence how descendants grow, survive, and respond to similar stress later in life, even in the absence of genetic change. This controversial process is known as transgenerational plasticity.
+</p>
+
+<p>
+Transgenerational plasticity may be especially important in clonal organisms, where adaptation through genetic recombination is limited. Yet we still know little about whether transgenerational plasticity can help descendants when stress returns, how long these effects last, and whether some lineages are more likely than others to show these responses.
+</p>
+
+<p>
+I study these questions by following single descendant lines across multiple generations. First, I expose individuals to stress for five generations. This pre-treatment phase allows stress-related changes to arise. Then, I grow the next five generations without stress to erase all directly induced changes. Finally, I expose the eleventh generation to either control conditions or recurrent stress for three to five generations. This final treatment phase shows whether ancestral stress changes offspring fitness and phenotype. Ancestral stress may have no detectable effects. It may lead to the transgenerational retention of stress-related traits across generations, or it may transgenerationally prime descendants, making them better or worse prepared for recurrent stress.
+</p>
+
+<p>
+This experimental design has shown that transgenerational plasticity is relevant for clonal organisms. It can modify fitness, such as reproduction rates, morphology, and organismal physiology, likely through inherited non-genetic marks.
 </p>
 </div>
 </details>
