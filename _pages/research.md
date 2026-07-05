@@ -14,9 +14,10 @@ author_profile: true
   align-items: start !important;
 }
 
-  .research-intro {
-  max-width: 100% !important;
-  margin-bottom: 2rem !important;
+.research-intro {
+  width: 100% !important;
+  max-width: 1180px !important;
+  margin: 0 0 2.5rem 0 !important;
 }
 
 .research-intro p {
