@@ -177,7 +177,7 @@ My research explores how organisms respond to environmental variation across gen
       </p>
 
    <p>
-        I study these questions by following single descendant lines across multiple generations. First, I expose individuals to stress for five generations. This pre-treatment phase allows stress-related changes to arise. Then, I grow the next five generations without stress to erase all directly induced changes. Finally, I expose the eleventh generation to either control conditions or recurrent stress for three to five generations. This final treatment phase shows whether ancestral stress changes offspring fitness and phenotype. Ancestral stress may have no detectable effects. It may lead to the transgenerational retention of stress-related traits across generations, or it may transgenerationally prime descendants, making them better or worse prepared for recurrent stress.
+        I study these questions by following single descendant lines across multiple generations. First, I expose individuals to stress for five generations. This pre-treatment phase allows stress-related changes to arise. Then, I grow the next five generations without stress to erase all directly induced changes. Finally, I expose the eleventh generation to either control conditions or recurrent stress for three to five generations. This final treatment phase shows whether ancestral stress changes offspring fitness and phenotype. Ancestral stress may have no detectable effects, it may lead to the transgenerational retention of stress-related traits across generations, or it may transgenerationally prime descendants, making them better or worse prepared for recurrent stress.
       </p>
 
    <div class="research-back-hint">Click another topic to change the panel.</div>
@@ -191,7 +191,7 @@ My research explores how organisms respond to environmental variation across gen
 Genetic diversity allows organisms to adapt in changing environments, but it may not be the only mechanism that shapes adaptation. Epigenetic marks, such as DNA methylation, small RNAs, and histone modifications, regulate how genes are expressed without changing the DNA sequence itself. Yet we still know little about whether these marks can influence adaptation in the absence of genetic change, how quickly they change across generations, and whether they can contribute to transgenerational plasticity.
       </p>
     <p>
-To study these questions, I use clonally reproducing organisms to assses DNA methylation and its correlation with gene expression. I currently work with <em>Spirodela polyrhiza</em>, <em>Rhopalosiphum nymphaeae</em>, <em>Daphnia magna</em>, and <em>Marchantia polymorpha</em>.
+To study these questions, I use clonally reproducing organisms to assses DNA methylation and its correlation with gene expression. I currently work with <em>Rhopalosiphum nymphaeae</em>, <em>Daphnia magna</em>, <em>Spirodela polyrhiza</em>, <em>Boechera stricta</em> and <em>Marchantia polymorpha</em>.
       </p>
 
    <div class="research-back-hint">Click another topic to change the panel.</div>
@@ -208,7 +208,7 @@ Metabolites are small molecules that take part in metabolism, including growth, 
 Amines are well known as neurotransmitters and neuromodulators in animals, but they also occur in plants. In plants, they may influence growth and stress responses. However, their role in plant–herbivore interactions remains poorly characterized.
       </p>
     <p>
-Phenylpropanoids, including flavonoids, are another major group of plant specialized metabolites. Flavonoids are often recognized for their antioxidant activity, but whether they are sufficient on their own to protect plants from oxidative stress remains unclear. Plant stress resistance usually depends on several interacting metabolic pathways, rather than on one class of compounds alone.
+Phenylpropanoids, including flavonoids, are another major group of plant specialized metabolites. Flavonoids are often recognized for their antioxidant activity, but whether they are sufficient on their own to protect plants from oxidative stress remains unclear.
       </p>
     <p>
 To study these questions, I use genetically engineered <em>Spirodela polyrhiza</em> lines that either over-accumulate or suppress specific amines. I expose these lines to abiotic stress and to two types of herbivory: sap-feeding by <em>Rhopalosiphum nymphaeae</em> and chewing herbivory by <em>Lymnaea stagnalis</em>. This approach shows how changes in amine and flavonoid concentrations affect plant stress responses and plant–herbivore interactions.
@@ -222,7 +222,10 @@ To study these questions, I use genetically engineered <em>Spirodela polyrhiza</
       <img src="/assets/images/population-genetics.jpg" alt="Population genetics">
 
    <p>
-        Text coming soon.
+        While a major question in biology is how organisms adapt to changing environments, it is also important to understand the species current population structure. To assess this, I use genetic and epigenetic markers to characterize genetic diversity, population structure, gene flow, and their associations with environmental and phenotypic variation.
+      </p>
+    <p>
+I work with a variety of organisms, including plants such as <em>Spirodela polyrhiza</em> and <em>Aristotelia chilensis</em>, and mammals such as the southern huemul deer (<em>Hippocamelus bisulcus</em>), the Andean bear (<em>Tremarctos ornatus</em>), and camelids.
       </p>
 
    <div class="research-back-hint">Click another topic to change the panel.</div>
