@@ -152,8 +152,7 @@ author_profile: true
   </p>
 </div>
 
-<div class="research-layout">
-  
+<div class="research-layout"> 
   <div class="research-cards">
 
    <div class="research-card active" data-topic="transgen">
