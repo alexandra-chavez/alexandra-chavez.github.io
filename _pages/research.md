@@ -134,10 +134,14 @@ author_profile: true
 }
 </style>
 
-My research explores how organisms respond to environmental variation across generations, with emphasis on plasticity, epigenetic mechanisms, chemical ecology, and population genetics.
+<div class="research-intro">
+  <p>
+    My research explores how organisms respond to environmental variation across generations, with emphasis on plasticity, epigenetic mechanisms, chemical ecology, and population genetics.
+  </p>
+</div>
 
 <div class="research-layout">
-
+  
   <div class="research-cards">
 
    <div class="research-card active" data-topic="transgen">
