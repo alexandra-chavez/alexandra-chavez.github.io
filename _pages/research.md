@@ -8,7 +8,7 @@ author_profile: true
 <style>
 .research-grid {
   display: grid !important;
-  grid-template-columns: repeat(2, minmax(360px, 1fr)) !important;
+  grid-template-columns: repeat(2, minmax(450px, 1fr)) !important;
   gap: 2.5rem !important;
   margin-top: 2rem !important;
 }
