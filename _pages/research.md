@@ -8,20 +8,21 @@ author_profile: true
 <style>
 .research-grid {
   display: grid !important;
-  grid-template-columns: repeat(2, minmax(420px, 1fr)) !important;
+  grid-template-columns: repeat(2, minmax(360px, 1fr)) !important;
   gap: 2.5rem !important;
   margin-top: 2rem !important;
 }
 
+.research-toggle {
+  display: none !important;
+}
+
 .research-flip-card {
-  background: transparent !important;
+  display: block !important;
   width: 100% !important;
   min-height: 560px !important;
   perspective: 1200px !important;
-}
-
-.research-flip-card input {
-  display: none !important;
+  cursor: pointer !important;
 }
 
 .research-flip-inner {
@@ -32,13 +33,15 @@ author_profile: true
   transform-style: preserve-3d !important;
 }
 
-.research-flip-card input:checked + .research-flip-inner {
+.research-toggle:checked + .research-flip-card .research-flip-inner {
   transform: rotateY(180deg) !important;
 }
 
 .research-flip-front,
 .research-flip-back {
   position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
   width: 100% !important;
   min-height: 560px !important;
   backface-visibility: hidden !important;
@@ -46,8 +49,8 @@ author_profile: true
   border-radius: 18px !important;
   background: #fff !important;
   box-shadow: 0 4px 14px rgba(0,0,0,0.06) !important;
-  padding: 1.4rem !important;
-  cursor: pointer !important;
+  padding: 1.5rem !important;
+  box-sizing: border-box !important;
 }
 
 .research-flip-front {
@@ -104,11 +107,13 @@ author_profile: true
   }
 }
 </style>
+
 My research explores how organisms respond to environmental variation across generations, with emphasis on plasticity, epigenetic mechanisms, chemical ecology, and population genetics.
 
-<label class="research-flip-card">
-  <input type="checkbox">
+<div class="research-grid">
 
+<input type="checkbox" id="card-transgen" class="research-toggle">
+<label for="card-transgen" class="research-flip-card">
   <div class="research-flip-inner">
 
   <div class="research-flip-front">
@@ -119,63 +124,84 @@ My research explores how organisms respond to environmental variation across gen
 
   <div class="research-flip-back">
       <h2>Transgenerational Plasticity</h2>
-    
-<p>
-To adapt to changing environments, organisms must cope with stress not only within their own lifetime, but also across generations. The conditions experienced by parents or ancestors may influence how descendants grow, survive, and respond to similar stress later in life, even in the absence of genetic change. This controversial process is known as transgenerational plasticity.
-</p>
 
-<p>
-Transgenerational plasticity may be especially important in clonal organisms, where adaptation through genetic recombination is limited. Yet we still know little about whether transgenerational plasticity can help descendants when stress returns, how long these effects last, and whether some lineages are more likely than others to show these responses.
-</p>
+  <p>
+        To adapt to changing environments, organisms must cope with stress not only within their own lifetime, but also across generations. The conditions experienced by parents or ancestors may influence how descendants grow, survive, and respond to similar stress later in life, even in the absence of genetic change. This controversial process is known as transgenerational plasticity.
+      </p>
 
-<p>
-I study these questions by following single descendant lines across multiple generations. First, I expose individuals to stress for five generations. This pre-treatment phase allows stress-related changes to arise. Then, I grow the next five generations without stress to erase all directly induced changes. Finally, I expose the eleventh generation to either control conditions or recurrent stress for three to five generations. This final treatment phase shows whether ancestral stress changes offspring fitness and phenotype. Ancestral stress may have no detectable effects. It may lead to the transgenerational retention of stress-related traits across generations, or it may transgenerationally prime descendants, making them better or worse prepared for recurrent stress.
-</p>
+   <p>
+        Transgenerational plasticity may be especially important in clonal organisms, where adaptation through genetic recombination is limited. Yet we still know little about whether transgenerational plasticity can help descendants when stress returns, how long these effects last, and whether some lineages are more likely than others to show these responses.
+      </p>
 
-<p>
-This experimental design has shown that transgenerational plasticity is relevant for clonal organisms. It can modify fitness, such as reproduction rates, morphology, and organismal physiology, likely through inherited non-genetic marks.
-</p>
+  <p>
+        I study these questions by following single descendant lines across multiple generations. First, I expose individuals to stress for five generations. This pre-treatment phase allows stress-related changes to arise. Then, I grow the next five generations without stress to erase all directly induced changes. Finally, I expose the eleventh generation to either control conditions or recurrent stress for three to five generations. This final treatment phase shows whether ancestral stress changes offspring fitness and phenotype. Ancestral stress may have no detectable effects. It may lead to the transgenerational retention of stress-related traits across generations, or it may transgenerationally prime descendants, making them better or worse prepared for recurrent stress.
+      </p>
+
+  <p>
+        This experimental design has shown that transgenerational plasticity is relevant for clonal organisms. It can modify fitness, such as reproduction rates, morphology, and organismal physiology, likely through inherited non-genetic marks.
+      </p>
 
   <div class="flip-hint">Click to return</div>
+  </div>
+
+  </div>
+</label>
+
+<input type="checkbox" id="card-epigenetics" class="research-toggle">
+<label for="card-epigenetics" class="research-flip-card">
+  <div class="research-flip-inner">
+
+  <div class="research-flip-front">
+      <h2>Epigenetics</h2>
+      <img src="/assets/images/epigenetics.jpg" alt="Epigenetics">
+      <div class="flip-hint">Click to read more</div>
+    </div>
+
+  <div class="research-flip-back">
+      <h2>Epigenetics</h2>
+      <p>Text coming soon.</p>
+      <div class="flip-hint">Click to return</div>
     </div>
 
   </div>
 </label>
 
-  <div class="research-card">
-    <details>
-      <summary>
-        <h2>Epigenetics</h2>
-        <img src="/assets/images/epigenetics.jpg" alt="Epigenetics">
-      </summary>
-      <div class="research-card-text">
-        <p>Text coming soon.</p>
-      </div>
-    </details>
-  </div>
+<input type="checkbox" id="card-chemical" class="research-toggle">
+<label for="card-chemical" class="research-flip-card">
+  <div class="research-flip-inner">
 
-  <div class="research-card">
-    <details>
-      <summary>
-        <h2>Chemical Ecology</h2>
-        <img src="/assets/images/chemical-ecology.jpg" alt="Chemical ecology">
-      </summary>
-      <div class="research-card-text">
-        <p>Text coming soon.</p>
-      </div>
-    </details>
-  </div>
+  <div class="research-flip-front">
+      <h2>Chemical Ecology</h2>
+      <img src="/assets/images/chemical-ecology.jpg" alt="Chemical ecology">
+      <div class="flip-hint">Click to read more</div>
+    </div>
 
-  <div class="research-card">
-    <details>
-      <summary>
-        <h2>Population Genetics</h2>
-        <img src="/assets/images/population-genetics.jpg" alt="Population genetics">
-      </summary>
-      <div class="research-card-text">
-        <p>Text coming soon.</p>
-      </div>
-    </details>
+  <div class="research-flip-back">
+      <h2>Chemical Ecology</h2>
+      <p>Text coming soon.</p>
+      <div class="flip-hint">Click to return</div>
+    </div>
+
   </div>
+</label>
+
+<input type="checkbox" id="card-popgen" class="research-toggle">
+<label for="card-popgen" class="research-flip-card">
+  <div class="research-flip-inner">
+
+  <div class="research-flip-front">
+      <h2>Population Genetics</h2>
+      <img src="/assets/images/population-genetics.jpg" alt="Population genetics">
+      <div class="flip-hint">Click to read more</div>
+    </div>
+
+  <div class="research-flip-back">
+      <h2>Population Genetics</h2>
+      <p>Text coming soon.</p>
+      <div class="flip-hint">Click to return</div>
+    </div>
+
+  </div>
+</label>
 
 </div>
