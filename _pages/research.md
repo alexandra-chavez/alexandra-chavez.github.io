@@ -14,6 +14,17 @@ author_profile: true
   align-items: start !important;
 }
 
+  .research-intro {
+  max-width: 100% !important;
+  margin-bottom: 2rem !important;
+}
+
+.research-intro p {
+  font-size: 1.05rem !important;
+  line-height: 1.6 !important;
+  max-width: 900px !important;
+  margin: 0 auto !important;
+}
 .research-cards {
   display: grid !important;
   grid-template-columns: 1fr !important;
