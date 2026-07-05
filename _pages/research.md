@@ -101,7 +101,7 @@ This experimental design has shown that transgenerational plasticity is relevant
 </summary>
 <div class="research-card-text">
 <p>
-Text coming soon.
+Text coming soon...
 </p>
 </div>
 </details>
@@ -113,7 +113,7 @@ Text coming soon.
 </summary>
 <div class="research-card-text">
 <p>
-Text coming soon.
+Text coming soon...
 </p>
 </div>
 </details>
@@ -125,7 +125,7 @@ Text coming soon.
 </summary>
 <div class="research-card-text">
 <p>
-Text coming soon.
+Text coming soon...
 </p>
 </div>
 </details>
