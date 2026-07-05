@@ -22,9 +22,10 @@ author_profile: true
 .research-intro p {
   font-size: 1.05rem !important;
   line-height: 1.6 !important;
-  max-width: 900px !important;
-  margin: 0 auto !important;
+  max-width: 100% !important;
+  margin: 0 !important;
 }
+  
 .research-cards {
   display: grid !important;
   grid-template-columns: 1fr !important;
