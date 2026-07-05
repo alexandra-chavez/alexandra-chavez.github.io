@@ -8,24 +8,29 @@ author_profile: true
 <style>
 .research-grid {
   display: grid !important;
-  grid-template-columns: repeat(2, 1fr) !important;
-  gap: 2rem !important;
+  grid-template-columns: repeat(2, minmax(360px, 1fr)) !important;
+  gap: 2.5rem !important;
   margin-top: 2rem !important;
 }
 
 .research-card {
+  perspective: 1000px !important;
+}
+
+.research-card details {
   border: 1px solid #e5e5e5 !important;
   border-radius: 18px !important;
-  padding: 1.2rem 1.2rem 1.5rem 1.2rem !important;
-  text-align: center !important;
   background: #fff !important;
   box-shadow: 0 4px 14px rgba(0,0,0,0.06) !important;
+  min-height: 520px !important;
   overflow: hidden !important;
 }
 
 .research-card summary {
   list-style: none !important;
   cursor: pointer !important;
+  text-align: center !important;
+  padding: 1.5rem !important;
 }
 
 .research-card summary::-webkit-details-marker {
@@ -33,35 +38,44 @@ author_profile: true
 }
 
 .research-card h2 {
-  font-size: 1.25rem !important;
-  margin: 0 0 0.4rem 0 !important;
+  font-size: 1.45rem !important;
+  margin: 0 0 0.7rem 0 !important;
   text-align: center !important;
   line-height: 1.15 !important;
 }
 
 .research-card img {
-  width: 260px !important;
-  height: 260px !important;
+  width: 310px !important;
+  height: 310px !important;
   object-fit: cover !important;
   border-radius: 50% !important;
   display: block !important;
-  margin: 0.2rem auto 0 auto !important;
+  margin: 0.3rem auto 0 auto !important;
 }
 
 .research-card-text {
-  margin-top: 1rem !important;
+  padding: 1.5rem 2rem 2rem 2rem !important;
   text-align: left !important;
-  font-size: 0.95rem !important;
+  font-size: 0.92rem !important;
+  line-height: 1.55 !important;
 }
 
-@media (max-width: 700px) {
+.research-card-text p {
+  margin-bottom: 1rem !important;
+}
+
+.research-card details[open] summary {
+  border-bottom: 1px solid #eeeeee !important;
+}
+
+@media (max-width: 900px) {
   .research-grid {
     grid-template-columns: 1fr !important;
   }
 
   .research-card img {
-    width: 230px !important;
-    height: 230px !important;
+    width: 260px !important;
+    height: 260px !important;
   }
 }
 </style>
@@ -70,12 +84,15 @@ My research explores how organisms respond to environmental variation across gen
 
 <div class="research-grid">
 
-<details class="research-card">
-<summary>
-<h2>Transgenerational Plasticity</h2>
-<img src="/assets/images/transgenerational-plasticity.jpg" alt="Transgenerational plasticity">
-</summary>
-<div class="research-card-text">
+  <div class="research-card">
+    <details>
+      <summary>
+        <h2>Transgenerational Plasticity</h2>
+        <img src="/assets/images/transgenerational-plasticity.jpg" alt="Transgenerational plasticity">
+      </summary>
+
+  <div class="research-card-text">
+    
 <p>
 To adapt to changing environments, organisms must cope with stress not only within their own lifetime, but also across generations. The conditions experienced by parents or ancestors may influence how descendants grow, survive, and respond to similar stress later in life, even in the absence of genetic change. This controversial process is known as transgenerational plasticity.
 </p>
@@ -91,43 +108,46 @@ I study these questions by following single descendant lines across multiple gen
 <p>
 This experimental design has shown that transgenerational plasticity is relevant for clonal organisms. It can modify fitness, such as reproduction rates, morphology, and organismal physiology, likely through inherited non-genetic marks.
 </p>
-</div>
-</details>
 
-<details class="research-card">
-<summary>
-<h2>Epigenetics</h2>
-<img src="/assets/images/epigenetics.jpg" alt="Epigenetics">
-</summary>
-<div class="research-card-text">
-<p>
-Text coming soon...
-</p>
-</div>
-</details>
+  </div>
+  </details>
+  
+  </div>
 
-<details class="research-card">
-<summary>
-<h2>Chemical Ecology</h2>
-<img src="/assets/images/chemical-ecology.jpg" alt="Chemical ecology">
-</summary>
-<div class="research-card-text">
-<p>
-Text coming soon...
-</p>
-</div>
-</details>
+  <div class="research-card">
+    <details>
+      <summary>
+        <h2>Epigenetics</h2>
+        <img src="/assets/images/epigenetics.jpg" alt="Epigenetics">
+      </summary>
+      <div class="research-card-text">
+        <p>Text coming soon.</p>
+      </div>
+    </details>
+  </div>
 
-<details class="research-card">
-<summary>
-<h2>Population Genetics</h2>
-<img src="/assets/images/population-genetics.jpg" alt="Population genetics">
-</summary>
-<div class="research-card-text">
-<p>
-Text coming soon...
-</p>
-</div>
-</details>
+  <div class="research-card">
+    <details>
+      <summary>
+        <h2>Chemical Ecology</h2>
+        <img src="/assets/images/chemical-ecology.jpg" alt="Chemical ecology">
+      </summary>
+      <div class="research-card-text">
+        <p>Text coming soon.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="research-card">
+    <details>
+      <summary>
+        <h2>Population Genetics</h2>
+        <img src="/assets/images/population-genetics.jpg" alt="Population genetics">
+      </summary>
+      <div class="research-card-text">
+        <p>Text coming soon.</p>
+      </div>
+    </details>
+  </div>
 
 </div>
