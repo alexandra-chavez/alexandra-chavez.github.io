@@ -191,7 +191,7 @@ My research explores how organisms respond to environmental variation across gen
 Genetic diversity allows organisms to adapt in changing environments, but it may not be the only mechanism that shapes adaptation. Epigenetic marks, such as DNA methylation, small RNAs, and histone modifications, regulate how genes are expressed without changing the DNA sequence itself. Yet we still know little about whether these marks can influence adaptation in the absence of genetic change, how quickly they change across generations, and whether they can contribute to transgenerational plasticity.
       </p>
     <p>
-To study these questions, I use clonally reproducing organisms to assses DNA methylation and its correlation with gene expression. I currently work with *Spirodela polyrhiza*, *Rhopalosiphum nymphaeae*, *Daphnia magna*, and *Marchantia polymorpha*.
+To study these questions, I use clonally reproducing organisms to assses DNA methylation and its correlation with gene expression. I currently work with <em>Spirodela polyrhiza</em>, <em>Rhopalosiphum nymphaeae</em>, <em>Daphnia magna</em>, and <em>Marchantia polymorpha</em>.
       </p>
 
    <div class="research-back-hint">Click another topic to change the panel.</div>
@@ -202,7 +202,16 @@ To study these questions, I use clonally reproducing organisms to assses DNA met
       <img src="/assets/images/chemical-ecology.jpg" alt="Chemical ecology">
 
    <p>
-        Text coming soon.
+Metabolites are small molecules that take part in metabolism, including growth, development, and energy production. Their biosynthesis often starts from primary metabolites, such as amino acids, and leads to specialized metabolites, such as amines, alkaloids, phenolamides, and phenylpropanoids.
+      </p>
+    <p>
+Amines are well known as neurotransmitters and neuromodulators in animals, but they also occur in plants. In plants, they may influence growth and stress responses. However, their role in plant–herbivore interactions remains poorly characterized.
+      </p>
+    <p>
+Phenylpropanoids, including flavonoids, are another major group of plant specialized metabolites. Flavonoids are often recognized for their antioxidant activity, but whether they are sufficient on their own to protect plants from oxidative stress remains unclear. Plant stress resistance usually depends on several interacting metabolic pathways, rather than on one class of compounds alone.
+      </p>
+    <p>
+To study these questions, I use genetically engineered <em>Spirodela polyrhiza</em> lines that either over-accumulate or suppress specific amines. I expose these lines to abiotic stress and to two types of herbivory: sap-feeding by <em>Rhopalosiphum nymphaeae</em> and chewing herbivory by <em>Lymnaea stagnalis</em>. This approach shows how changes in amine and flavonoid concentrations affect plant stress responses and plant–herbivore interactions.
       </p>
 
    <div class="research-back-hint">Click another topic to change the panel.</div>
