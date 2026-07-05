@@ -144,6 +144,19 @@ author_profile: true
     width: 220px !important;
     height: 220px !important;
   }
+  .page__content .research-intro {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 0 2.5rem 0 !important;
+}
+
+.page__content .research-intro p {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  font-size: 1.05rem !important;
+  line-height: 1.6 !important;
+}
 }
 </style>
 <div class="research-intro">
