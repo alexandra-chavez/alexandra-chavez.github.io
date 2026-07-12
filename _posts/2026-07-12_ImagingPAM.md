@@ -1,6 +1,6 @@
 ---
 title: "New collaboration using Imaging-PAM"
-date: 2026-07-13
+date: 2026-07-12
 categories:
   - news
 permalink: /news/imaging-pam/
