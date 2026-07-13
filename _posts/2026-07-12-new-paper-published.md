@@ -4,7 +4,8 @@ date: 2026-07-12
 categories:
   - news
 permalink: /news/heritable-transgenerational-effects-duckweed/
-excerpt: "Our new paper shows that transgenerational fitness effects in duckweed are heritable, vary among genotypes, and can be anticipated from copper resistance."
+excerpt: "Our new paper shows that transgenerational fitness effects in duckweed are heritable, vary among genotypes, and can be anticipated from the plant resistance to stress."
+read_time: false
 ---
 
 We are excited to share that our new paper is now available in <i>Proceedings of the Royal Society B</i>.
