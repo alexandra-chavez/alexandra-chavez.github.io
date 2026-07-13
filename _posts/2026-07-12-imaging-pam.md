@@ -5,6 +5,7 @@ categories:
   - news
 permalink: /news/imaging-pam/
 excerpt: "We are excited to begin a new collaboration using Imaging-PAM to test how transgenic plants respond to abiotic stress."
+read_time: false
 ---
 
 We are excited to begin a new collaboration with Prof. Dr. Andreas Wachter at Johannes Gutenberg University Mainz.
