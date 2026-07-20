@@ -5,6 +5,7 @@ categories:
   - news
 permalink: /news/genetic-status-huemul-deer/
 excerpt: "Our new study assesses the genetic diversity and demographic status of the northernmost population of the endangered huemul deer."
+read_time: false
 ---
 
 I am excited to share that our new article is now available in <i>Animals</i>!
